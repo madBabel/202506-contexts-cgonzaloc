@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 jobs:
   echo-data:
-    runs-on: ubunt-latest
+    runs-on: ubuntu-latest
     steps:
       - name: ShowInfo
         run: |
